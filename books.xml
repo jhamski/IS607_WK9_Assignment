@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<BooksNotYetRead>
+  <Book>
+    <Title>Graphic Design: The New Basics</Title>
+    <Author>Lupton, Ellen</Author>
+    <Author>Phillips, Jennifer Cole</Author>
+    <NewUsed>New</NewUsed>
+    <WhyBought>Cool cover and amazing graphics inside.</WhyBought>
+  </Book>
+  <Book>
+    <Title>Irrational Exuberence, Third Edition</Title>
+    <Author>Shiller, Robert</Author>
+    <NewUsed>New</NewUsed>
+    <WhyBought>It also has a cool cover and is considered a modern classic in economics.</WhyBought>
+  </Book>
+  <Book>
+    <Title>The Power Broker</Title>
+    <Author>Caro, Robert</Author>
+    <NewUsed>New</NewUsed>
+    <WhyBought>History/biography of Robert Moses, influential NYC bureaucrat.</WhyBought>
+  </Book>
+</BooksNotYetRead>

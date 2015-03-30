@@ -1,0 +1,36 @@
+---
+title: "IS 607 - Wk 9 Assignment"
+author: "J. Hamski"
+date: "March 29, 2015"
+output: html_document
+---
+
+
+
+```{r, warning=FALSE}
+library(XML)
+library(RJSONIO)
+```  
+
+##Import HTML
+```{r}
+html <- readHTMLTable("http://txt.do/x4bq", header=TRUE, as.data.frame = TRUE)
+str(html)
+```  
+
+##Import XML
+```{r, warning=FALSE, eval=FALSE} 
+xml.url <- "http://txt.do/x4bu"
+xml <- xmlTreeParse(xml.url)
+xml.DF <- xmlToDataFrame(xmlChildren(xml))
+str(xml.DF)
+```  
+
+##Import JSON
+```{r, eval=FALSE}
+json.url <- "http://txt.do/x4bm"
+json <- fromJSON(json.url)
+json.DF <- data.frame(json$Books)
+str(json.DF)
+```
+

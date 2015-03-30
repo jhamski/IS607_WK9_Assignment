@@ -1,0 +1,15 @@
+{
+"Books":[ {"title":"Graphic Design: The New Basics",
+           "author1":"Lupton, Ellen", "author2":"Phillips, Jennifer Cole",
+           "neworused":"New","whybought":"Cool cover and amazing graphics inside."
+         },
+          {"title":"Irrational Exuberence, Third Edition",
+           "author":"Shiller, Robert","author2":"N/A","neworused":"New",
+           "whybought":"It also has a cool cover and is considered a modern classic in economics."
+         },
+          {"title":"The Power Broker",
+           "author":"Caro, Robert","author2":"N/A","neworused":"Used",
+           "whybought":"History/biography of Robert Moses, influential NYC bureaucrat."
+         }
+        ]
+}
